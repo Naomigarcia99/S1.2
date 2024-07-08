@@ -11969,4 +11969,19 @@ textarea.form-control-lg {
   margin-left: 15px;
   width: 85px;
   color: white;
+}
+
+p {
+  color: grey;
+}
+
+.shape-background {
+  position: absolute; /* Posición absoluta para colocarse debajo de la imagen */
+  bottom: -10%; /* Coloca la forma por debajo del contenedor padre */
+  right: -25%; /* Alinea la forma a la derecha del contenedor */
+  width: 100%; /* Ancho completo del contenedor padre */
+  height: 80%; /* Altura deseada para la forma */
+  background-color: #5265e1; /* Color de fondo */
+  border-radius: 50% 0% 0% 50%; /* Bordes redondeados */
+  z-index: -1; /* Para que esté detrás de la imagen */
 }/*# sourceMappingURL=main.css.map */

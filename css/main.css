@@ -12014,4 +12014,24 @@ p {
   .nav-tabs .bookmarking {
     border-top: 0.5px solid grey;
   }
+}
+.img-descargas {
+  margin: 0 auto; /* Centra horizontalmente las imágenes */
+  max-width: 100%; /* Establece el ancho máximo para que sean fluidas */
+  height: auto; /* Ajusta automáticamente la altura para mantener la proporción */
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 50%;
+  }
+}
+.row-descargas-height {
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .row-descargas-height {
+    height: auto;
+  }
 }/*# sourceMappingURL=main.css.map */

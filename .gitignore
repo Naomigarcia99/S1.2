@@ -1,0 +1,6 @@
+node_modules/
+css/main.css.map
+css/main.scss
+images/
+package-lock.json
+package.json

@@ -11965,7 +11965,31 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.navbar .btn {
+.btn.btn-secondary {
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: #fa5959;
+  --bs-btn-hover-color: #fa5959;
+}
+
+.btn.btn-primary {
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: #5265e1;
+  --bs-btn-hover-color: #5265e1;
+}
+
+.btn.btn-light {
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: --bs-light;
+  --bs-btn-hover-color: --bs-light;
+}
+
+.nav-link:hover,
+.nav-tabs .nav-item .nav-link:hover,
+.accordion-button:hover {
+  color: #fa5959;
+}
+
+.btn-nav {
   margin-left: 15px;
   width: 85px;
   color: white;
@@ -12036,7 +12060,7 @@ p {
   }
 }
 .margin-footer {
-  margin-bottom: 400px;
+  margin-bottom: 200px;
 }
 
 .btn-footer,

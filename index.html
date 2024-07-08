@@ -298,6 +298,93 @@
           <button type="button" class="btn btn-primary">More info</button>
         </div>
       </div>
+
+      <!--Nivel 2-->
+      <!--Ejercicio 5. Footer-->
+      <footer class="bg-primary text-white pt-4">
+        <div class="row text-center mt-5 mb-5">
+          <p class="p-footer">35,000+ ALREADY JOINED</p>
+          <h2>Stay up-to-date with what we're doing</h2>
+        </div>
+        <form
+          class="row g-3 needs-validation justify-content-center"
+          novalidate
+        >
+          <div class="col-md-3 col-10 position-relative">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Enter your email address"
+              required
+            />
+            <div class="invalid-tooltip">Whoops, make sure it's an email</div>
+          </div>
+          <div class="col-md-2 text-center">
+            <button class="btn btn-secondary btn-footer" type="submit">
+              Contact Us
+            </button>
+          </div>
+        </form>
+        <div class="row bg-dark mt-5">
+          <div class="col-md-3 text-center">
+            <a href="#" class="navbar-brand">
+              <img
+                src="./images/logo-bookmark.svg"
+                alt="Logo"
+                class="invert-svg"
+              />
+            </a>
+          </div>
+          <div class="col-md-6 text-center">
+            <ul
+              class="list-unstyled d-flex flex-column flex-md-row justify-content-md-start"
+            >
+              <li class="mx-2">
+                <a href="#" class="nav-link">Features</a>
+              </li>
+              <li class="mx-2">
+                <a href="#" class="nav-link">Pricing</a>
+              </li>
+              <li class="mx-2">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 text-center">
+            <a href="#" class="navbar-brand mx-3">
+              <img src="./images/icon-facebook.svg" alt="Logo" />
+            </a>
+            <a href="#" class="navbar-brand">
+              <img src="./images/icon-twitter.svg" alt="Logo" />
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (() => {
+        "use strict";
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll(".needs-validation");
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach((form) => {
+          form.addEventListener(
+            "submit",
+            (event) => {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false
+          );
+        });
+      })();
+    </script>
   </body>
 </html>

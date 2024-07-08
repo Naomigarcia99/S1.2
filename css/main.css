@@ -12034,4 +12034,16 @@ p {
   .row-descargas-height {
     height: auto;
   }
+}
+.margin-footer {
+  margin-bottom: 400px;
+}
+
+.btn-footer,
+.p-footer {
+  color: white;
+}
+
+.invert-svg {
+  filter: invert(1); /* Invertir los colores */
 }/*# sourceMappingURL=main.css.map */
